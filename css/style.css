@@ -40,7 +40,7 @@ header {
   z-index: 1000;
   flex-flow: column;
   padding: 8rem 2rem;
-  width: 30rem;
+  flex-basis: 30rem;
   text-align: center;
 }
 
@@ -89,4 +89,21 @@ header .follow a:hover {
   padding: 1rem 1.5rem;
   font-size: 3rem;
   cursor: pointer;
+  display: none;
+}
+
+/* media query */
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  body {
+    padding: 0;
+  }
+  #menu-bars {
+    display: initial;
+  }
+  header {
+    left: -120%;
+  }
 }
