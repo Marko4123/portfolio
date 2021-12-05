@@ -40,7 +40,7 @@ header {
   z-index: 1000;
   flex-flow: column;
   padding: 8rem 2rem;
-  flex-basis: 30rem;
+  width: 30rem;
   text-align: center;
 }
 
@@ -105,5 +105,16 @@ header .follow a:hover {
   }
   header {
     left: -120%;
+  }
+  header.active {
+    left: 0;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  header {
+    width: 100%;
   }
 }
