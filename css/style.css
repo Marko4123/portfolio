@@ -28,6 +28,11 @@ body {
   padding-left: 30rem;
 }
 
+section {
+  padding: 1rem 5%;
+  min-height: 100vh;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -124,6 +129,22 @@ header .follow a:hover {
 }
 .cursor-2.active {
   display: none;
+}
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.home .image {
+  flex: 1 1 40rem;
+}
+.home .image img {
+  width: 100%;
+}
+.home .content {
+  flex: 1 1 40rem;
 }
 
 /* media query */
