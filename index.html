@@ -6,20 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My personal portfolio</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-      $.ajax({
-        method: "POST",
-        url: "https://formsubmit.co/4c8a10debab8d0a9ac80c7f788c2fc9e",
-        dataType: "json",
-        accepts: "application/json",
-        data: {
-          name: "FormSubmit",
-          message: "I'm from Devro LABS",
-        },
-        success: (data) => console.log(data),
-        error: (err) => console.log(err),
-      });
-    </script>
 
     <!-- font awesome cdn link -->
     <link
@@ -364,7 +350,10 @@
         </div>
       </div>
       <div class="row">
-        <form action="" method="POST">
+        <form
+          action="https://formsubmit.co/4c8a10debab8d0a9ac80c7f788c2fc9e"
+          method="POST"
+        >
           <input
             type="text"
             placeholder="name"
