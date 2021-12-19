@@ -478,6 +478,12 @@ header .follow a:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
 }
+.contact .row form .sucess_msg {
+  text-align: center;
+  font-size: 1.7rem;
+  color: green;
+  padding-top: 1rem;
+}
 .contact .row form .box,
 .contact .row form textarea {
   width: 100%;

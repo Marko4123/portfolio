@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My personal portfolio</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <script src="js/mail,js"></script>
     <!-- font awesome cdn link -->
     <link
       rel="stylesheet"
@@ -350,22 +350,22 @@
         </div>
       </div>
       <div class="row">
-        <form
-          action="https://formsubmit.co/4c8a10debab8d0a9ac80c7f788c2fc9e"
-          method="POST"
-        >
+        <form action="">
+          <div id="stage" class="sucess_msg"></div>
           <input
             type="text"
             placeholder="name"
             name="name"
             class="box"
             required
+            id="user_name"
           />
           <input
             type="email"
             placeholder="email"
             name="email"
             class="box"
+            id="user_email"
             required
           />
           <input
@@ -373,17 +373,24 @@
             placeholder="number"
             name="number"
             class="box"
+            id="user_number"
             required
           />
           <textarea
             required
             name="message"
+            id="user_message"
             placeholder="message"
             cols="30"
             rows="10"
           ></textarea>
           <input type="text" name="_honey" style="display: none" />
-          <input type="submit" class="btn" value="send message" />
+          <input
+            type="submit"
+            class="btn"
+            id="submit_btn"
+            value="send message"
+          />
         </form>
         <iframe
           class="map"
