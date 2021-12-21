@@ -382,11 +382,9 @@ header .follow a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  align-items: flex-start;
-  justify-content: space-between;
 }
 .portfolio .box-container .box {
-  flex-basis: 30rem;
+  flex: 1 1 30rem;
   height: 25rem;
   position: relative;
   overflow: hidden;
