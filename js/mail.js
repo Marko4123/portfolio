@@ -17,7 +17,7 @@ $("form").on("submit", function (e) {
     },
     success: function (data) {
       $("#stage").text(
-        "Thank you for contacting us. We will get back to you shortly."
+        "Благодаря Ви, че се свързахте с мен!"
       );
     },
   });
