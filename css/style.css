@@ -519,6 +519,19 @@ header .follow a:hover {
   width: 100%;
 }
 
+footer {
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding: 2.5rem;
+  text-align: center;
+  color: #666;
+  background: #fff;
+}
+
+footer span {
+  color: var(--main-color);
+}
+
 /* media query */
 @media (max-width: 991px) {
   html {
